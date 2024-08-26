@@ -26,7 +26,7 @@ This repository contains a series of exercises, examples, and resources designed
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/Learning-CSS.git
+[git clone https://github.com/your-username/Learning-CSS.git](https://github.com/ARahmanAR/Learning-CSS/)
 ```
 
 Navigate to the project directory:
@@ -98,6 +98,6 @@ Here are some additional resources to help you learn CSS:
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
+
 
 
