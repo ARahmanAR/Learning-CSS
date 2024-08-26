@@ -26,7 +26,7 @@ This repository contains a series of exercises, examples, and resources designed
 To get started, clone this repository to your local machine:
 
 ```bash
-[git clone https://github.com/your-username/Learning-CSS.git](https://github.com/ARahmanAR/Learning-CSS/)
+[git clone https://github.com/your-username/Learning-CSS.git]
 ```
 
 Navigate to the project directory:
