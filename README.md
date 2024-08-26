@@ -1,4 +1,4 @@
-Here’s a sample `README.md` file for a GitHub repository named "Learning-CSS". This file will serve as an introduction and guide to the repository.
+
 
 ```markdown
 # Learning-CSS
@@ -100,4 +100,4 @@ Here are some additional resources to help you learn CSS:
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
 
-You can customize this `README.md` file based on your specific needs and the content of your "Learning-CSS" repository.
+
