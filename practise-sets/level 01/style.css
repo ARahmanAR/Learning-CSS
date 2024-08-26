@@ -1,0 +1,18 @@
+/* ? This is the CSS file for the level 01 practise set. You can add your CSS code here. */
+#heading {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: rgb(155, 9, 131);
+    font-size: 30px;
+    text-align: center;
+}
+
+#first, #second {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
