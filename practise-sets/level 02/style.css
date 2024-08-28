@@ -1,0 +1,44 @@
+#bar {
+    background-color: bisque;
+    color: rgba(204, 28, 5, 0.8);
+    font-size: 1.5em;
+    padding: 5px;
+    text-align: center;
+    width: auto;
+    border: 1px solid rgb(255, 245, 157);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+main {
+    background-color: rgb(255, 245, 157);
+    color: rgba(204, 28, 5, 0.8);
+    font-size: 1.5em;
+    padding: 5px;
+    text-align: center;
+    height: 600px;
+    border: 1px solid rgb(255, 188, 157);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: rgb(255, 222, 150);
+}
+#product {
+    background-image: url(/images/00e27983-d373-4d86-9f25-3e46a18ec12a1690609817622-Top_casual_Styles-_Levi-s-_Tommy_Min_40.png);
+    width: 326px;
+    height: 428px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 188, 157);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: end;
+    padding: 5px;
+}
