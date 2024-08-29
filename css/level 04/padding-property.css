@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#padded {
+    height: 300px;
+    width: 300px;
+    padding: 15px 15px 15px 15px;
+    background-color: aquamarine;
+    font-size: 22px;
+
+}
