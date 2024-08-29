@@ -1,0 +1,21 @@
+#head {
+    text-transform: capitalize;
+    background-color: aquamarine;
+    color: rgb(0, 90, 75);
+    border: 1px solid rgb(0, 255, 85);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+#para {
+    text-transform: uppercase;
+    background-color: rgb(0, 255, 200);
+    color: rgb(247, 247, 247);
+    border: 1px solid rgb(43, 255, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font: 1em ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

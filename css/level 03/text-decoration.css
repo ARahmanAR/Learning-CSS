@@ -1,0 +1,48 @@
+#head {
+    text-decoration: underline;
+    background-color: aquamarine;
+    color: rgb(0, 90, 75);
+    border: 1px solid rgb(0, 255, 85);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#para {
+    text-decoration: line-through;
+    background-color: rgb(0, 255, 200);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(43, 255, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#link {
+    text-decoration: none;
+    background-color: rgb(121, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#h2 {
+    text-decoration: overline;
+    background-color: rgb(255, 255, 176);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.para2 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;  
+    text-decoration-color: rgb(0, 255, 149);
+    background-color: rgb(205, 255, 185);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font: 1em sans-serif;
+}

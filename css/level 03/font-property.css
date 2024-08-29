@@ -1,0 +1,36 @@
+.article {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Work Sans", sans-serif;
+    font-style: oblique;
+}
+
+
+.material-symbols-rounded {
+    color: rgb(0, 214, 143);
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 1000,
+    'GRAD' 0,
+    'opsz' 24
+}
+#icon {
+    color: rgb(0, 214, 143);
+    font-size: 30px;
+}
+#terminal {
+    color: rgb(0, 214, 143);
+    font-size: 30px;
+}
+#home {
+    color: rgb(0, 214, 143);
+    font-size: 30px;
+}
+#animation {
+    color: rgb(0, 214, 143);
+    font-size: 30px;
+}
+#barcode {
+    color: rgb(0, 214, 143);
+    font-size: 30px;
+}

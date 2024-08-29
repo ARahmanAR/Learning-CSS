@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#nav h1 {
+    background-color: aquamarine;
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: 10px 10px 10px grey;
+}
+#inner {
+    font-size: 10px;
+}
+#outer {
+    font-size: 25px;
+}
+#github {
+    font-size: 30px;
+}
+#linkedin {
+    font-size: 30px;
+}
