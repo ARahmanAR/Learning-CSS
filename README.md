@@ -68,11 +68,31 @@ The repository is organized into several folders, each dedicated to a specific a
 
 ```plaintext
 Learning-CSS/
-├── 01-Basics/
-├── 02-Box-Model/
-├── 03-Flexbox/
-├── 04-Grid/
-└── 05-Responsive-Design/
+├── css/
+    ├── level 01
+    ├── level 02
+    ├── level 03
+    ├── level 04
+    ├── level 05
+    ├── level 07
+├── html/
+    ├── level 01
+    ├── level 02
+    ├── level 03
+    ├── level 04
+    ├── level 05
+    ├── level 07
+├── images/
+├── pratise-sets/
+    ├── level 01
+    ├── level 02
+    ├── level 03
+    ├── level 04
+    ├── level 05
+    ├── level 07
+├── project/
+├── .DS_Store
+└── README.md
 ```
 
 Each folder contains markdown files with explanations, examples, and exercises.
