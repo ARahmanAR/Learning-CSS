@@ -1,0 +1,58 @@
+/* ! This is a CSS file for the "Relative Unit" exercise. You can add your CSS here.Section for percentage values in CSS is here: https://developer.mozilla.org/en-US/docs/Web/CSS/percentage . Generally used for width, height, margin, padding, etc. */
+* {
+    margin: 0; padding: 0;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#first {
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+#second {
+    height: 50%;
+    width: 50%;
+    background-color: lightcoral;
+}
+/* ! This is for em values in CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/em */
+/* ! Generally used for font-size, but can be used for other properties as well. */
+#third {
+    font-size: 20px;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+}
+#forth {
+    font-size: 1em;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(230, 173, 204);
+
+}
+/* ! This is for rem values in CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/rem . Generally used for font-size, but can be used for other properties as well. */
+/* Relative to the root element (html) font-size. */
+#fifth {
+    font-size: 1rem;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+}
+#sixth {
+    font-size: 1rem;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(173, 230, 204);
+}
+/* ! This is for vw and vh values in CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/length . Generally used for width and height. */
+/* vw: 1/100th of the width of the viewport. */
+#seventh {
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid rgb(226, 214, 46);
+    background-color: lightyellow;
+    font-size: 2vh;
+}

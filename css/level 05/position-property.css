@@ -1,0 +1,57 @@
+body {
+    min-height: 300vh; /* Makes the body height twice the viewport height */
+}
+
+* {
+    margin: 0; padding: 0;
+}
+/*
+ * CSS class for styling boxes.
+ * 
+ * This class includes properties for styling boxes.
+ * 
+ * Properties:
+ * - width: Specifies the width of the box.
+ * - height: Specifies the height of the box.
+ * - background-color: Specifies the background color of the box.
+ * - border: Specifies the border properties of the box.
+ * - margin: Specifies the margin properties of the box.
+ * - padding: Specifies the padding properties of the box.
+ * - display: Specifies the display type of the box.
+ * - position: Specifies the positioning type of the box.
+ * - box-sizing: Specifies the box sizing type of the box.
+ */
+.box {
+    width: 8vw;
+    height: 16vh;
+    font-size: 1.5rem;
+    background-color: burlywood;
+    margin: 1vh;
+    border: 4px solid rgb(107, 30, 0);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 16vh;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+/* ! This is a static box. It is not affected by the top and left properties. Usually, you don't need to set the position property to static, because it is the default value. */
+#box1 {
+    position: static;
+}
+/* ! This is a relative box. It is affected by the top and left properties. Unlike the static box, it is not removed from the normal flow. The relative box is moved from its original position. */
+#box2 {
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+/* ! This is an absolute box. It is affected by the top and left properties. The absolute box is removed from the normal flow. It is positioned relative to the nearest positioned ancestor. If there is no positioned ancestor, it is positioned relative to the initial containing block. */
+#box3 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+/* ! This is a fixed box. It is affected by the top and left properties. The fixed box is removed from the normal flow. It is positioned relative to the initial containing block. */
+#box4 {
+    position: fixed;
+    top: 20px;
+    left: 320px;
+}

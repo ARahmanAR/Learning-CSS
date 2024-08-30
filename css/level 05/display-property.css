@@ -1,0 +1,15 @@
+* {
+    margin: 0; padding: 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: chartreuse;
+    display: inline-block; /* ! display: inline; */
+}
+#box1 {
+    /* ! visibility: hidden;  This is used  to hide the element but this will still take up space */
+    display: none; /* ? This can be used to hide the element and it will not take up space */
+    
+}
