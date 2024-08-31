@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid black;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+#heading {
+    margin: 0 0 5px 0;
+}
+
+#container {
+    height: 300px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+    background-color: rgb(253, 231, 231);
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* Used to align items horizontally */
+    /* flex-wrap: wrap; */
+    /* align-items: center; /* Used to align items vertically */
+    /* align-content: center; /* Used to align items vertically and  it dont show space between items */
+}
+
+#box1 {
+    background-color: salmon;
+    order: 3;
+}
+
+#box2 {
+    background-color: lightblue;
+    /* align-self: flex-end; /* Used to align items vertically */
+    order: 4;
+    /* Used to change the order of the item */
+}
+
+#box3 {
+    background-color: lightgreen;
+    /*flex-shrink: 0; /* Used to shrink the item */
+    order: 3;
+}
+
+#box4 {
+    background-color: rgb(255, 84, 84);
+    flex-grow: 2;
+    /* Used to grow the item */
+    order: 1;
+    /* Used to change the order of the item */
+}

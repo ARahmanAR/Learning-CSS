@@ -1,0 +1,14 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 104, 104);
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .box {
+        background-color: rgb(104, 255, 104);
+    }
+    
+}
