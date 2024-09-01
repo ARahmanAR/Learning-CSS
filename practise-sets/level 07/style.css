@@ -1,0 +1,33 @@
+.progress-container {
+    width: 90%;
+    height: 25px;
+    background-color: #ffc9c9;
+
+    border: #be4747 2px solid;
+    border-radius: 14px;
+    position: relative;
+    margin: 10px auto;
+    justify-content: center;
+    
+}
+.progress-bar {
+    background-color: #ff7b7b;
+    height: 100%;
+    width: 50%;
+    border-radius: 12px;
+    animation: animate_progress 7s linear infinite;
+}
+@keyframes animate_progress {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 95%;
+    }
+    95% {
+        width: 30%;
+    }
+    100% {
+        width: 100%;
+    }
+}

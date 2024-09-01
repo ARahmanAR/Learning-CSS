@@ -1,0 +1,31 @@
+.pseudo {
+    height: 25px;
+    width: 150px;
+    background-color: #a0ffa8;
+    border: #006b09 2px solid;
+    text-align: center;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #006b09;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    /*transition: all 1s ease-in 0s;*/ /* shorthand */
+
+}
+.pseudo:hover {
+    background-color: #00ff80;
+    color: #006b09;
+    height: 30px;
+    width: 160px;
+    border-radius: 10px;
+}
+.pseudo:active {
+    background-color: #00f7ff;
+    color: #00256b;
+    border-radius: 10px;
+}

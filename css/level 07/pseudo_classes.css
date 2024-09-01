@@ -1,0 +1,20 @@
+.pseudo {
+    height: 25px;
+    width: 150px;
+    background-color: #a0ffa8;
+    border: #006b09 2px solid;
+    text-align: center;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #006b09;
+}
+.pseudo:hover {
+    background-color: #00ff80;
+    color: #006b09;
+}
+.pseudo:active {
+    background-color: #00f7ff;
+    color: #00256b;
+}
